@@ -1,0 +1,29 @@
+header h1{
+    color:rgba(31, 62, 146, 0.74);
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+header { 
+    border-bottom: 1px solid #999;
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+
+.home-container {
+    padding: 0px;
+}
+
+li::marker{
+    content:"✝ ";
+    font-size: 1.2rem;
+}
+a {
+    color: black;
+    /* text-decoration: none; */
+}
